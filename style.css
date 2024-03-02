@@ -344,6 +344,10 @@ ol{
     background-color: #F3F3F3;
 }
 
+.newsletter-form-section hr{
+    margin-bottom: 30px;
+}
+
 .newsletter-image-section {
     background-image: url('Images/newsletter.png');
     background-repeat: no-repeat;

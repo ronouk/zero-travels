@@ -420,3 +420,43 @@ hr{
 }
 
 
+/* ========================================================= */
+
+/* Responsive section */
+
+/* Max screen size: 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+    /* hero */
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-button {
+        width: 150px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    /* Popular tour */
+
+    .popular-tour-image img {
+        width: 80%;
+    }
+
+    /* newsletter */
+    .newsletter-ribbon {
+        padding: 20px;
+        text-align: center;
+        bottom: 65px;
+        right: 0px;
+        transform: rotate(-45deg);
+    }
+
+}
